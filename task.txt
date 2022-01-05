@@ -1,0 +1,19 @@
+With this assignment, we would like to check your skills in PHP or Node.js and Vue js or React.js. You need to create a simple banking system as described below: 
+Create a Database named 'Bank' consisting of 2 tables, namely, Users & Accounts. Users table will have all users(bankers & customers). 
+Accounts table will have all entries of cash deposited & withdrawn. 
+
+1. Customer login: 
+Login page: Will consist of username/email and password fields. 
+An access token(a random alphanumeric string of 36 characters) for authorization must be generated with every login. 
+That particular access token must be used as a header(Authorization) for every other API request from thereon. 
+Transactions Page: Login should take the customer to the transactions page to see all of its transaction records 
+along with Deposit and Withdraw buttons. Clicking on either of the buttons should open up a popup showing available 
+balance along with a numeric input field to enter the amount for deposit/withdrawal. Withdrawal will deduct &
+deposit will add to the balance amount. If the withdrawal amount entered is greater than the balance amount then show a message, 
+"Insufficient Funds". 
+2. Banker Login: 
+Accounts Page: Login should take the banker to the Accounts page to see all the accounts of the customers. 
+A banker should be able to click on a particular user to see its transactions. 
+This task should be achieved by using the MVC(Model View Controller) Architecture. 
+The assignment should take between 2-4 days, the earlier the better. 
+You will need to submit your Github repo link or any free live server.
